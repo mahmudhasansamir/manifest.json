@@ -1,0 +1,64 @@
+
+addEventListener("fetch", event => {
+  const data = {
+       "name": "PDisk Movies",
+         "short_name": "PDisk Movies",
+           "description": " Download Movies & TV Shows",
+             "lang": "en-US",
+               "display": "standalone",
+                 "background_color": "#ffffff",
+                   "start_url": "/?utm_source=homescreen",
+                     "theme_color": "#ffffff",
+                       "orientation": "portrait",
+                         "icons": [
+                             {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBtRB-7Ps7WmsdBB2hcm5RTARYGIXBvykqdnLc_JMUZ_hACaTtdYn6UQq57sXYENX5ghntmQECV0AMQUpiJY6hf9mVAR67b6p9eaaGdpV_vfk2mdTlFZw3FlXXrzlkYBDNsJnn4GqSBtwHHu1MjRb-8HkskH9S_m2zizLnYXuQA0lTLmX9DAMF0T8X_w/s32/favicon-32x32.png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVbNEQ40dD_hmwshduP8KyAt__Y9OT1Ad_c0DzKL-vFhugoAT9ryKTrnc6yKLmz8yuRulbUIwguxx6MLaypI8gZdMjJeSN2ybuySYg2kRXM_K-HNa8G6fDy0CCOBQPJijNHc0WVuiffi_UBHGUi66tHhhxxOg0LXre7iL427O1R36Kvcp2Ne1j0R7l5Q/s72/apple-icon-72x72.png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHG8aiOLByuEY4NqMS--jPUCMFyedxnRXs7ydVq30TD8SDeNeOKUpU0tY8m-7w1WsKYFZCsMzDZnIkDHTnfNJ4CgBhqc-7OnGvKydgLvc_8yJ_l0AHBH_clEO30QJZ3H-RzJKh8d83Zxen0yQ07YFdXHQHu4ecG5pS4gMSzB0Qq4L4-5twF08fmUO13A/s96/favicon-96x96.png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbeR4fd6rsqaG-FikNkL8Fz1_OCUSVM-LgsOnPeXCsqrV2UnqKRMAXdj-YYJ3fNzwWu4Fppr8KW6QWM39AQ7nP775XWN_7IXWoH1yzgBElePbfqn8i0CPF9itA9udiPm5U4EMk9eTmVW9A1RyP23s9gaaZsg3_rD3WaeuGyeicn-DGdSx3OpjmVK9TBg/s120/apple-icon-120x120.png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQhNaMF6rId6RaTjCKA1bFULz2ZND5Gv5Geyyv18OR2Glk-26XccQb052-BjzKrcTfQPVmkvCIA0V4FuAyRWhZZWfPSbdjNpyQlHLtu0WQQhGzPCbjVZqTth3DBB08cPsWoGLtC1bCy8zOMil2mQamwKGnaBbetCHrhafpM7y4lIqBmVwFLzWt6Y5oaw/s144/android-icon-144x144.png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhncphfAHOWuXjX9wpL6OI9ZHv6yg4a2YKQdSJGK73UFP136aqUd3rU20aQkdzRI55_OYuxqfG86zKFcuESi98HTqFVYKnyiNsc8qxKB-ZbgYVagqplQ7a2_dWeGpFmqJNiw_HKlmn6htexciHzYIO1i430VZ6inmFP_qoh0X_jBXqyZ5fg_-uCYBJI6g/s152/apple-icon-152x152.png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWQatkYeQi3Zss1sC2La8lxBja3AT9HvIt2poJIN57LdUIYj_pVUcNqHrpWEZ0Y-t79PhKqfxIPfazXP24lEK9nnJpAA_lWvwfG1olqAXPyU1IbPa6R-F0EFChtIqWeslElUWL3-tnG5LV5zjTZhWhPgXTseihWCjJgZxW6TQGjtZ5dxyFbClMNkzMMw/s180/apple-icon-180x180.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxKzt-UcgnP8qMX-lfS3U9h73CXm7QdbMHK779UP2hhfNEsFms9xJNa5v-kQYQLVJMYt0RgoYBHErt5q09o7D_CQM24iiviwi7rO2UqRIdWmY3NPRhNQW7o6SVU4F-Py2H40qdMloow9dxOUqMhZZSbYScn7DLjkRO7reBa2cHH08sEfrJxs4K4uoiFQ/s310/ms-icon-310x310.png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxKzt-UcgnP8qMX-lfS3U9h73CXm7QdbMHK779UP2hhfNEsFms9xJNa5v-kQYQLVJMYt0RgoYBHErt5q09o7D_CQM24iiviwi7rO2UqRIdWmY3NPRhNQW7o6SVU4F-Py2H40qdMloow9dxOUqMhZZSbYScn7DLjkRO7reBa2cHH08sEfrJxs4K4uoiFQ/s310/ms-icon-310x310.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxKzt-UcgnP8qMX-lfS3U9h73CXm7QdbMHK779UP2hhfNEsFms9xJNa5v-kQYQLVJMYt0RgoYBHErt5q09o7D_CQM24iiviwi7rO2UqRIdWmY3NPRhNQW7o6SVU4F-Py2H40qdMloow9dxOUqMhZZSbYScn7DLjkRO7reBa2cHH08sEfrJxs4K4uoiFQ/s310/ms-icon-310x310.png",
+      "sizes": "1024x1024"
+                                                                                                                                                            },
+                                                                                                                                                               ]
+                                                                                                                                                                                                                                                                                                      }
+  const json = JSON.stringify(data, null, 2)
+  return event.respondWith(
+      new Response(json, {
+            headers: {
+                    "content-type": "application/json;charset=UTF-8"
+                          }
+                              })
+                                )
+                                })
